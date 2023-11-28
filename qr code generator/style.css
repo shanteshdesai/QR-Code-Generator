@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+}
+
+.header{
+    height: 500px;
+    width: 300px;
+    padding: 25px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(218, 212, 203, 0.556);
+    border-radius: 10px;
+} 
+
+.header p{
+    font-weight: 800px;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+#gen{
+    font-weight: 900px;
+    font-size: 40px;
+    margin-bottom: 8px;
+    color: rgb(1, 1, 1);
+}
+
+#gen:hover{
+    color: rgb(250, 5, 5);
+    cursor: pointer;
+}
+
+#input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    outline: 0;
+    padding: 10px;
+    margin: -8px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.btn-qr{
+    margin: 30px;
+    margin-left: 35px;
+    padding: 4px;
+    width: 213px;
+    height: 45px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: blue;
+    border: 0;
+    outline: 0;
+}
+
+.btn-qr:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+#img{
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#imgb img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
